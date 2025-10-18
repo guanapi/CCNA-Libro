@@ -204,15 +204,15 @@ Para ello, elegimos la opción para dibujar rectángulos o cuadrados, y el color
 
 En mi caso, elegí amarillo y verde. Para poder escribir, elegimos la opción **“Place Notes”** o presionamos la tecla **“n”**, y hacemos clic en la parte donde queramos escribir.
 
-![image.png](/reources/cap-1/image%2019.png)
+![image.png](/resources/cap-1/image%2019.png)
 
 Para que la oficina de Buenos Aires, Argentina, pueda comunicarse con los servidores de São Paulo, necesitamos utilizar un router (enrutador). Este dispositivo sirve para conectar diferentes redes locales entre sí o para enviar los datos a Internet.
 
 Así que vamos a armarlo, y te quedaría así. Creo que a estas alturas ya podés hacerlo por tu cuenta.
 
-![image.png](/reources/cap-1/image%2020.png)
+![image.png](/resources/cap-1/image%2020.png)
 
-![Animation.gif](/reources/cap-1/Animation%201.gif)
+![Animation.gif](/resources/cap-1/Animation%201.gif)
 
 Por lo tanto, como se ve en la animación de arriba, la PC1 envía el paquete al Router1, el Router1 lo envía al Router2, el Router2 lo envía al Server2, y luego el Server2 responde.
 
@@ -221,7 +221,7 @@ Las principales características de los **routers** son:
 - Tienen menos interfaces/puertos que los **switches.**
 - Sirven para conectar LANs entre si y envían paquetes hacia otras redes o hacia Internet.
 
-![Router Cisco 8200 series](/reources/cap-1/image%2021.png)
+![Router Cisco 8200 series](/resources/cap-1/image%2021.png)
 
 Router Cisco 8200 series
 
@@ -239,11 +239,11 @@ Y los nuevos firewalls tienen características más avanzadas; por ejemplo, tamb
 
 Siguiendo el último diagrama, vamos a conectar los firewalls. Estos pueden estar conectados dentro de la LAN, es decir, antes del router, o fuera de la LAN, después del router.
 
-![image.png](/reources/cap-1/image%2022.png)
+![image.png](/resources/cap-1/image%2022.png)
 
 Ahí es donde se encuentra el firewall; por lo tanto, vamos a usar dos firewalls: uno para São Paulo y otro para Buenos Aires, colocando uno dentro de la LAN —en mi caso, el de São Paulo estará dentro de la LAN y el de Buenos Aires fuera de la LAN—. Recuerda que, para poder conectarlos, vas a tener que eliminar el cable con la tecla **“Del”** y conectar un cable nuevo.
 
-![image.png](/reources/cap-1/image%2023.png)
+![image.png](/resources/cap-1/image%2023.png)
 
 Las principales características de los **firewalls** son:
 
@@ -254,11 +254,11 @@ Las principales características de los **firewalls** son:
 
 **Modelos de firewall:**
 
-![Cisco ASA](/reources/cap-1/image%2024.png)
+![Cisco ASA](/resources/cap-1/image%2024.png)
 
 Cisco ASA
 
-[Cisco Firepower.](/reources/cap-1/security-firepower-1000-series.avif)
+[Cisco Firepower.](/resources/cap-1/security-firepower-1000-series.avif)
 
 Cisco Firepower.
 
