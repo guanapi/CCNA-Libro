@@ -1,3 +1,17 @@
+# 📑 Indice
+
+- [Capítulo 1](#capitulo-1)
+  - [Introducción](#introduccion)
+  - [¿Qué necesitamos?](#que-necesitamos)
+  - [Packet Tracer](#packet-tracer)
+  - [¿Qué son las Redes/Network?](#que-son-las-redesnetwork)
+    - [Construyendo una Red de computadoras](#construyendo-una-red-de-computadoras)
+    - [Clientes y Servidores](#clientes-y-servidores)
+    - [Switches](#switches)
+    - [Routers](#routers)
+    - [Firewalls](#firewalls)
+    - [Resumen](#resumen)
+
 # Capitulo 1
 
 ## Introducción.
