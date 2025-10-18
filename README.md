@@ -12,7 +12,7 @@
     - [Firewalls](#firewalls)
     - [Resumen](#resumen)
 
-# Capitulo 1
+# Capítulo 1
 
 ## Introducción.
 
