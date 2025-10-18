@@ -2,7 +2,7 @@
 
 - [Capítulo 1](#capítulo-1)
   - [Introducción](#introducción)
-  - [¿Qué necesitamos?](#¿qué-necesitamos?)
+  - [¿Qué necesitamos?](#qué-necesitamos)
   - [Packet Tracer](#packet-tracer)
   - [¿Qué son las Redes/Network?](#que-son-las-redesnetwork)
     - [Construyendo una Red de computadoras](#construyendo-una-red-de-computadoras)
