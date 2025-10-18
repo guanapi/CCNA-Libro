@@ -47,7 +47,7 @@ Recomiendo hacerlo antes de seguir con este libro, aunque también te voy a expl
 
 ## Packet Tracer
 
-![image.png](image.png)
+![image.png](/resources/download-packet.png)
 
 Una vez que entres en la página de descarga, elegí el instalador correspondiente a tu sistema operativo.
 
