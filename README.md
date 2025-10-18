@@ -47,7 +47,7 @@ Recomiendo hacerlo antes de seguir con este libro, aunque también te voy a expl
 
 ## Packet Tracer
 
-![image.png](/resources/download-packet.png)
+![image.png](/resources/cap-1/download-packet.png)
 
 Una vez que entres en la página de descarga, elegí el instalador correspondiente a tu sistema operativo.
 
@@ -57,34 +57,34 @@ El archivo se descargará (normalmente en la carpeta *Downloads*). Vamos al dire
 
 1. Aceptamos el acuerdo (*agreement*) y hacemos clic en **Next**.
 
-![image.png](image%201.png)
+![image.png](/resources/cap-1/license-agreement.png)
 
 1. Elegimos la carpeta de instalación (yo la dejo por defecto) y clic en **Next**.
 
-![image.png](image%202.png)
+![image.png](/resources/cap-1/select-dest.png)
 
 1. Elegimos si queremos accesos directos; también lo dejo por defecto.
 
-![image.png](image%203.png)
+![image.png](/resources/cap-1/start-menu.png)
 
-![image.png](image%204.png)
+![image.png](/resources/cap-1/addition-tasks.png)
 
 1. Finalmente, clic en **Install**.
 
-![image.png](image%205.png)
+![image.png](/resources/cap-1/ready-install.png)
 
 Y el programa va a comenzar a instalarse
 
-![image.png](image%206.png)
+![image.png](/resources/cap-1/installing.png)
 
 Una vez instalado, hacemos clic en **Finish** y Packet Tracer se abrirá automáticamente.
 
-![image.png](image%207.png)
+![image.png](/resources/cap-1/completed.png)
 
 Antes de usarlo por primera vez, el programa te preguntará si querés autorizar el modo *multi-user*.
 Yo elegí **No**.
 
-![{D3FB3595-772B-436A-BC75-BDEC5B689511}.png](D3FB3595-772B-436A-BC75-BDEC5B689511.png)
+![image.png](/resources/cap-1/packet-tracer-window.png.png)
 
 Y listo, ya tenemos el programa abierto.
 
@@ -94,7 +94,7 @@ Para definir las las redes de computadoras (networks), voy a usar la definición
 
 Una **red de computadoras**, **red de ordenadores** o **red informática** es un conjunto de [equipos nodos](https://es.wikipedia.org/wiki/Hardware_de_red) y [software](https://es.wikipedia.org/wiki/Software) conectados entre sí por medio de [dispositivos físicos](https://es.wikipedia.org/wiki/Hardware_de_red) que envían y reciben [impulsos eléctricos](https://es.wikipedia.org/wiki/Corriente_el%C3%A9ctrica), [ondas electromagnéticas](https://es.wikipedia.org/wiki/Radiaci%C3%B3n_electromagn%C3%A9tica) o cualquier otro medio para el transporte de [datos](https://es.wikipedia.org/wiki/Dato), con la finalidad de compartir información, recursos y ofrecer [servicios](https://es.wikipedia.org/wiki/Servicio_de_red).
 
-![image.png](image%208.png)
+![image.png](/resources/cap-1/nodes-icons.png)
 
 Antes de comenzar a analizar la definicion, quiero que recuerdes estos **nodos** (iconos) con sus nombres ya que los vamos a estar utilizandon en todo el curso.
 
@@ -106,11 +106,11 @@ Si todavia no abriste Packet Tracer, es momento de hacerlo.
 
  Una vez abierto dirigite a la parte inferior izquierda donde estan todos los dispositivos. 
 
-![image.png](image%209.png)
+![image.png](/resources/cap-1/net-devices.png)
 
 Y elegí **End Devices.**
 
-![image.png](image%2010.png)
+![image.png](/resources/cap-1/end-hosts.png)
 
 Ahora arrastrá **dos PCs** al área de trabajo.
 
@@ -120,18 +120,18 @@ Sin embargo, un cliente también puede actuar como **servidor (server).**
 
 .
 
-![image.png](image%2011.png)
+![image.png](/resources/cap-1/add-pcs.png)
 
 En la imagen de arriba tenemos dos clientes, pero todavía no tenemos una red. Para crearla, tenemos que **conectarlas con un cable.**
 
 .
 Por ahora, usá el ícono del **rayo**, que permite a Packet Tracer elegir automáticamente el tipo de cable correcto (más  delante vamos a ver los distintos tipos de cables).
 
-![image.png](image%2012.png)
+![image.png](/resources/cap-1/select-cable.png)
 
 eleccioná el rayo, conectá **PC0** con **PC1** y ya vas a tener tu primera **Network**.
 
-![image.png](image%2013.png)
+![image.png](/resources/cap-1/connect-cable.png)
 
 ### Clientes y Servidores
 
@@ -153,13 +153,13 @@ Ahora imaginemos que querés ver un video en YouTube o leer las noticias en una 
 
 En ese caso, tu PC (el cliente) **envía una solicitud a Internet** para llegar al servidor, y luego el servidor **responde con los datos solicitados**.
 
-![Animation.gif](Animation.gif)
+![Animation.gif](/resources/cap-1/packet-to-server.gif)
 
 Sé paciente, que más adelante vamos a aprender a hacer la animación pero este no es el momento.
 
 Así que vamos a crear este ejemplo. Vamos a elegir una PC, un router (que va a actuar como Internet) y un servidor, y los conectamos con un cable, como aprendiste anteriormente. Recuerda que el router lo vas a encontrar en **“Network Devices”**, y la PC y el servidor en **“End Devices”**.
 
-![image.png](image%2014.png)
+![image.png](/resources/cap-1/internet-router.png)
 
 Cuando el servidor responde, no envía todos los datos juntos, sino **en partes pequeñas** (paquetes), hasta completar el contenido (por ejemplo, el video).
 
@@ -169,17 +169,17 @@ Supongamos ahora que en tu casa u oficina tenés dos computadoras y una impresor
 
 .
 
-[Cisco Catalyst 2960](switches-catalyst-2960-series-switches-alt2.avif)
+[Cisco Catalyst 2960](/resources/cap-1/switches-catalyst-2960-series-switches-alt2.avif)
 
 Cisco Catalyst 2960
 
 Así que vamos a **Packet Tracer** y elegimos **dos PCs**, **una impresora (Printer)** y **un switch**.
 
-![image.png](image%2015.png)
+![image.png](/resources/cap-1/select-switch.png)
 
 Una vez que tengas los dispositivos igual que en el diagrama de arriba, los conectamos con un cable y nos tiene que quedar así.
 
-![image.png](image%2016.png)
+![image.png](/resources/cap-1/connect-2-sw.png)
 
 Los **switches** tienen las siguientes características:
 
@@ -196,23 +196,23 @@ Ahora imaginemos que tenemos una pequeña empresa con oficinas en Buenos Aires, 
 
 Y vamos a armar este diagrama en packet tracer.
 
-![image.png](image%2017.png)
+![image.png](/resources/cap-1/offices.pngcap-1/)
 
 Para ello, elegimos la opción para dibujar rectángulos o cuadrados, y el color que queramos. Seguimos los pasos de la imagen de abajo.
 
-![image.png](image%2018.png)
+![image.png](/resources/cap-1/image%2018.png)
 
 En mi caso, elegí amarillo y verde. Para poder escribir, elegimos la opción **“Place Notes”** o presionamos la tecla **“n”**, y hacemos clic en la parte donde queramos escribir.
 
-![image.png](image%2019.png)
+![image.png](/reources/cap-1/image%2019.png)
 
 Para que la oficina de Buenos Aires, Argentina, pueda comunicarse con los servidores de São Paulo, necesitamos utilizar un router (enrutador). Este dispositivo sirve para conectar diferentes redes locales entre sí o para enviar los datos a Internet.
 
 Así que vamos a armarlo, y te quedaría así. Creo que a estas alturas ya podés hacerlo por tu cuenta.
 
-![image.png](image%2020.png)
+![image.png](/reources/cap-1/image%2020.png)
 
-![Animation.gif](Animation%201.gif)
+![Animation.gif](/reources/cap-1/Animation%201.gif)
 
 Por lo tanto, como se ve en la animación de arriba, la PC1 envía el paquete al Router1, el Router1 lo envía al Router2, el Router2 lo envía al Server2, y luego el Server2 responde.
 
@@ -221,7 +221,7 @@ Las principales características de los **routers** son:
 - Tienen menos interfaces/puertos que los **switches.**
 - Sirven para conectar LANs entre si y envían paquetes hacia otras redes o hacia Internet.
 
-![Router Cisco 8200 series](image%2021.png)
+![Router Cisco 8200 series](/reources/cap-1/image%2021.png)
 
 Router Cisco 8200 series
 
@@ -239,11 +239,11 @@ Y los nuevos firewalls tienen características más avanzadas; por ejemplo, tamb
 
 Siguiendo el último diagrama, vamos a conectar los firewalls. Estos pueden estar conectados dentro de la LAN, es decir, antes del router, o fuera de la LAN, después del router.
 
-![image.png](image%2022.png)
+![image.png](/reources/cap-1/image%2022.png)
 
 Ahí es donde se encuentra el firewall; por lo tanto, vamos a usar dos firewalls: uno para São Paulo y otro para Buenos Aires, colocando uno dentro de la LAN —en mi caso, el de São Paulo estará dentro de la LAN y el de Buenos Aires fuera de la LAN—. Recuerda que, para poder conectarlos, vas a tener que eliminar el cable con la tecla **“Del”** y conectar un cable nuevo.
 
-![image.png](image%2023.png)
+![image.png](/reources/cap-1/image%2023.png)
 
 Las principales características de los **firewalls** son:
 
@@ -254,11 +254,11 @@ Las principales características de los **firewalls** son:
 
 **Modelos de firewall:**
 
-![Cisco ASA](image%2024.png)
+![Cisco ASA](/reources/cap-1/image%2024.png)
 
 Cisco ASA
 
-[Cisco Firepower.](security-firepower-1000-series.avif)
+[Cisco Firepower.](/reources/cap-1/security-firepower-1000-series.avif)
 
 Cisco Firepower.
 
